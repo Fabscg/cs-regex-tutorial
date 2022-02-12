@@ -59,14 +59,23 @@ They are a sequence of characters that can be use to specify a string, a text or
 * [:alpha:] and [:digit:] is the same as [0-9A-Za-Z]
 
 ### Greedy and Lazy Match
-#### **
+####  *You may think that <.+> (. means any non newline character and + means one or more) would only match the <em> and the </em>, when in reality it will be very greedy, and go from the first < to the last >. This means it will match <em>Hello World</em> instead of what you wanted.Making it lazy (<.+?>) will prevent this. By adding the ? after the +, we tell it to repeat as few times as possible, so the first > it comes across, is where we want to stop the matching.*
 
 ### Boundaries
+#### *A word Boundary in most Regex dialects is a position between \w and \W (non word char), or at the beginning or end od a string if it begins or ends(respectively) with a word character ([0-9A-Za-z_]). So in the string "-12", it would match before the 1 or after the 2.*
 
 ### Back-references
+#### *Are used to match the same text previously matched by a capturing group. This both helps in reusing previous parts of your pattern and ensuring two pieces of a string match. for example, if you try  to verify that a string has a digit from zero to nine, a separetor, such as hyphens, slaches or even spaces, a lower letter, another separator, the another digit from 0 to 9, you could use aregex like this.* Example:
+* [0-9][-/ ][a-z][-/ ][0-9]
 
 ### Look-ahead and Look-behind
+#### *For the start, let’s find the price from the string like 1 turkey costs 30€. That is: a number, followed by € sign.The syntax is: X(?=Y), it means "look for X, but match only if followed by Y". There may be any pattern instead of X and Y. for an integer number followed by €, the regexp will be \d+(?=€):*
+### Look-Behind 
+#### *Look-Bihind is not supported in V8 browsers, such as Safari, Internet Explorer. This is similar  but it looks behind. That is, it allows to match a pattern only if there's somehting before it* Example:
+* Positive lookbehind: (?<=Y>X), matches X, but only if there is Y before it.
+* Negative lookbehind: (?<!Y>)X, matches X, but only if there is no Y befor it.
+* For example, let’s change the price to US dollars. The dollar sign is usually before the number, so to look for $30 we’ll use (?<=\$)\d+ – an amount preceded by $:
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+   Fabiola C. Gamboa
+I started doing cogind in febraury 2020, I loved right away, then I got involve a lot when I got couple of books and a course on line, but it wasn't enough, specially when you are a self learner, you have so many questions but even when you googled everything you still want to know more. Then I decided to take this Bootcamp from the U of T, and It has been so helpfull for me and the way I had been learning has been amazing, when I look at in the past couple of years, I relized how much had been learning in the last 5 months. (https://github.com/Fabskickass/cs-regex-tutorial)
