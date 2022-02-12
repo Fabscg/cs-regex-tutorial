@@ -68,5 +68,8 @@ They are a sequence of characters that can be use to specify a string, a text or
 ### Look-ahead and Look-behind
 
 ## Author
+  Fabiola C. Gamboa
+  
+  [Github](https://github.com/Fabskickass/cs-regex-tutorial)
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
