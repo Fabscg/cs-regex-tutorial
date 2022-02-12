@@ -77,5 +77,13 @@ They are a sequence of characters that can be use to specify a string, a text or
 * For example, let’s change the price to US dollars. The dollar sign is usually before the number, so to look for $30 we’ll use (?<=\$)\d+ – an amount preceded by $:
 
 ## Author
+<<<<<<< HEAD
    Fabiola C. Gamboa
 I started doing cogind in febraury 2020, I loved right away, then I got involve a lot when I got couple of books and a course on line, but it wasn't enough, specially when you are a self learner, you have so many questions but even when you googled everything you still want to know more. Then I decided to take this Bootcamp from the U of T, and It has been so helpfull for me and the way I had been learning has been amazing, when I look at in the past couple of years, I relized how much had been learning in the last 5 months. (https://github.com/Fabskickass/cs-regex-tutorial)
+=======
+  Fabiola C. Gamboa
+  
+  [Github](https://github.com/Fabskickass/cs-regex-tutorial)
+
+
+>>>>>>> 6ddbdd15d3f68a237fb007f938cf92fb9ac30cb3
