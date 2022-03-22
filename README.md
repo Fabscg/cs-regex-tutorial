@@ -46,7 +46,7 @@
   ## Name
   Fabiola C. Gamboa
 
-  ##[Gist](https://gist.github.com/Fabscg/d5a0452b3b51de2775fb0994e0d7cf02.js)
+  ## [Gist](https://gist.github.com/Fabscg/d5a0452b3b51de2775fb0994e0d7cf02.js)
 
   ## [Github](https://github.com/Fabscg)
   
