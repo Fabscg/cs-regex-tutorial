@@ -50,4 +50,4 @@
 
   ## [Github](https://github.com/Fabscg)
   
-  ## [fabiscg79@gmail.com](fabiscg79@gmail.com)
+  ## [fabiscg79@gmail.com](mailto:fabiscg79@gmail.com)
